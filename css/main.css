@@ -326,7 +326,21 @@ footer ul.quicklinks {
   color: white;
 }
 
+.contact-list {
+  text-align: left; /* left-align items */
+}
+
+.contact-item {
+  margin-bottom: 15px;
+}
+
+.contact-item i,
+.contact-item a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .social-icon {
-  font-size:50px;
-  word-spacing: 20px;
+  font-size: 30px;
+  width: 60px;          /* aligns text vertically */
 }
