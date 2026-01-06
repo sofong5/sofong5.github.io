@@ -296,12 +296,15 @@ footer ul.quicklinks {
 .image {
   max-height: 100%; 
   max-width: 100%;
+  min-height: 50%;
+  min-width: 50%;
   box-shadow: 4px 8px 10px rgba(0, 0, 0, 0.2);
 }
 
 .image-container {
   width: auto;
-  height: auto;"
+  height: auto;
+  text-align: right;
 }
 
 .overlay {
@@ -326,8 +329,12 @@ footer ul.quicklinks {
   color: white;
 }
 
-.contact-list {
+.left-align {
   text-align: left;
+}
+
+.right-align {
+  text-align: right;
 }
 
 .contact-item {
